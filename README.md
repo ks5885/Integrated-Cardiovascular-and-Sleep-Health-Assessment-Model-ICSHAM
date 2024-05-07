@@ -1,7 +1,19 @@
-# Integrated Cardiovascular and Sleep Health Assessment Model (ISCHAM)
+# Integrated Cardiovascular and Sleep Health Assessment Model (ICSHAM)
+
+## Repository Description
+This repository contains 8 files in total:
+- heart_data.csv: original patient information related to heart and blood pressure data.
+- sleep_data.csv: original patient information related to sleep data.
+- DataClean.ipynb: interactive notebook that cleans and preprocesses both datasets above.
+- heart_data_clean.csv: cleaned and preprocessed heart dataset.
+- sleep_data_clean.csv: cleaned and preprocessed sleep dataset.
+- dataLinkage.ipynb: interactive notebook that performs data linkage for both cleaned datasets using Fuzzy matching.
+- resultantDataset.csv: linked and merged result dataset that is created through dataLinkage.ipynb.
+- FinalProjectModeling.ipynb: interactive notebook that uses ML models to find insights and output results using resultantDataset.csv
+
 
 ## Overview
-The Integrated Cardiovascular and Sleep Health Assessment Model (ISCHAM) is a research initiative aimed at developing predictive models to estimate the risk and progression of cardiovascular diseases (CVD) based on sleep quality and patterns. This project leverages machine learning techniques to analyze health data collected from wearable devices, providing insights into how sleep-related metrics can influence cardiovascular health.
+The Integrated Cardiovascular and Sleep Health Assessment Model (ICSHAM) is a research initiative aimed at developing predictive models to estimate the risk and progression of cardiovascular diseases (CVD) based on sleep quality and patterns. This project leverages machine learning techniques to analyze health data collected from wearable devices, providing insights into how sleep-related metrics can influence cardiovascular health.
 
 ## Team Members
 - **Daniel Cho** - hjc448@nyu.edu
