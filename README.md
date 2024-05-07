@@ -108,6 +108,9 @@ Our analysis combines these datasets by focusing on shared variables to explore 
 
 
 ## Results
+![models](https://github.com/ks5885/Integrated-Cardiovascular-and-Sleep-Health-Assessment-Model-ICSHAM/assets/84752797/8c306e8f-944e-4206-a979-e385719d64e3)
+![fcnn](https://github.com/ks5885/Integrated-Cardiovascular-and-Sleep-Health-Assessment-Model-ICSHAM/assets/84752797/cec2b02e-d5c2-4b4b-9f06-6549f2b440ef)
+
 In our project's recent phase, we enhanced the predictive capabilities of our models through meticulous data cleaning, concatenation, and sophisticated model training processes. We employed a range of machine learning models including Random Forest, Decision Trees, Logistic Regression, and K-Nearest Neighbors. After conducting a thorough hyperparameter sweep, the best-performing model, the Random Forest, demonstrated robust predictive accuracy, achieving an impressive 80% accuracy with optimal settings featuring a Gini impurity criterion. Despite achieving moderate success in accurately predicting cardiovascular disease risks, the models exhibited some limitations, particularly reflected in the area under the curve metrics and F1-scores. For example, the area under the curve (AUC) for our primary model was approximately 0.60, indicating a need for further refinement to enhance predictive precision.
 
 To address these limitations, we refined our approach by standardizing data, which aimed to reduce variance and improve model consistency. Additionally, we introduced a Fully Connected Neural Network (FCNN), which marked a significant improvement in our modeling efforts. The FCNN achieved an AUC of around 0.75, demonstrating enhanced capability in distinguishing between positive and negative cases of cardiovascular disease. However, the challenge of low F1-scores persisted, with the neural network model achieving an F1-score around 0.65, suggesting ongoing issues with the balance between precision and recall in our models.
